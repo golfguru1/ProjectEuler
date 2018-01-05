@@ -12,7 +12,7 @@ def fibonacci(n):
     a = 1
     b = 1
     c = 0
-    while(c < n):
+    while c < n:
         c = a + b
         a = b
         b = c
